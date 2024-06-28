@@ -6,9 +6,9 @@ Implementation of Prompt-and-Align: Prompt-Based Social Alignment for Few-Shot F
 
 **从原始社交背景构建新闻邻接图** 
 
-As an alternative to using our pre-processed adjacency matrices under `data/adjs/`, we provide a pre-processing script at `Process/adj_matrix_fewshot.py` to construct the matrices from scratch.  
+作为使用“data/adjs/”下预处理邻接矩阵的替代方案，在“Process/adj_matrix_fewshot.py”中提供了一个预处理脚本来从头开始构建矩阵
 
-Construct the adjacency matrices with the following command:
+使用以下命令构造邻接矩阵：
 
 ```bash
 mkdir data/adjs_from_scratch
