@@ -3,6 +3,7 @@ Implementation of Prompt-and-Align: Prompt-Based Social Alignment for Few-Shot F
 
 ## Data
 数据的获取方式请参照[P&A](https://github.com/jiayingwu19/Prompt-and-Align)
+
 **从原始社交背景构建新闻邻接图** 
 
 As an alternative to using our pre-processed adjacency matrices under `data/adjs/`, we provide a pre-processing script at `Process/adj_matrix_fewshot.py` to construct the matrices from scratch.  
